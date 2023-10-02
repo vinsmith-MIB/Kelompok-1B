@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Survey Pembelajaran Via Daring</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/css/surveyweb.css" />
+  </head>
+
+  <body>
+    <div class="container">
+      <header>
+        <h1 id="title">SURVEY PEMBELAJARAN VIA DARING</h1>
+        <p id="description">
+          Terimakasih telah meluangkan waktu untuk mengisi survey yang kami
+          berikan
+        </p>
+      </header>
+
+      <form id="survey-form">
+        <div class="form-group">
+          <label id="name-label" for="name">Nama</label>
+          <input
+            id="name"
+            type="text"
+            placeholder="Masukkan nama anda"
+            required
+          />
+        </div>
+        <div class="form-group">
+          <label id="email-label" for="email">Email</label>
+          <input
+            id="email"
+            type="email"
+            placeholder="Masukkan email anda"
+            required
+          />
+        </div>
+        <div class="form-group">
+          <label id="number-label" for="number">Umur</label>
+          <input
+            id="number"
+            type="number"
+            min="13"
+            max="99"
+            placeholder="Umur"
+            required
+          />
+        </div>
+        <div class="form-group">
+          <label id="select-label"
+            >Jenis Kelamin<span class="clue">(opsional)</span></label
+          >
+          <select id="dropdown">
+            <option value="">Pilih Jenis Kelamin</option>
+            <option value="1">Laki-laki</option>
+            <option value="2">Perempuan</option>
+          </select>
+        </div>
+        <div class="form-group radio">
+          <p>Menurut Anda, seberapa efektif pembelajaran via online ?</p>
+          <label for="radio1"
+            ><input id="radio1" type="radio" value="1" name="value-radio" /> 1
+            (Sangat Kurang)</label
+          >
+          <label for="radio2"
+            ><input id="radio2" type="radio" value="2" name="value-radio" /> 2
+            (Kurang)</label
+          >
+          <label for="radio3"
+            ><input id="radio3" type="radio" value="3" name="value-radio" /> 3
+            (Cukup)</label
+          >
+          <label for="radio4"
+            ><input id="radio4" type="radio" value="4" name="value-radio" /> 4
+            (Baik)</label
+          >
+          <label for="radio5"
+            ><input id="radio5" type="radio" value="5" name="value-radio" /> 5
+            (Sangat Baik)</label
+          >
+        </div>
+        <div class="form-group radio">
+          <p>
+            Apa yang anda pikirkan tentang pembelajaran via daring ? Jelaskan
+            mengapa anda memilih jawaban tersebut!
+          </p>
+          <label for="pro"
+            ><input id="pro" type="radio" value="pro" name="opinion-radio" />
+            Pro</label
+          >
+          <label for="kontra"
+            ><input id="kontra" type="radio" value="kon" name="opinion-radio" />
+            Kontra</label
+          >
+          <label for="netral"
+            ><input
+              id="netral"
+              type="radio"
+              value="netral"
+              name="opinion-radio"
+            />
+            Netral</label
+          >
+          <label for="textarea"></label>
+          <textarea
+            id="alasan"
+            rows="5"
+            placeholder="masukkan alasan kenapa anda memilih (pro/kontra/netral) ..."
+          ></textarea>
+        </div>
+        <div class="form-group">
+          <p>
+            Menurut anda, apa yang membuat pembelajaran via daring itu berbeda
+            dari segi kenyamanannya ?
+          </p>
+          <label for="kualitas"
+            ><input
+              id="kualitas"
+              type="checkbox"
+              value="kualitas-relevansi-sistem"
+            />
+            Kualitas dan Relavansi Sistem Pembelajaran</label
+          >
+          <label for="keaktifan"
+            ><input
+              id="keaktifan"
+              type="checkbox"
+              value="keaktifan-peserta-pembelajaran"
+            />
+            Keaktifan Peserta Pembelajaran Via Online</label
+          >
+          <label for="keaktifan"
+            ><input
+              id="keaktifan"
+              type="checkbox"
+              value="kualitas-penyampaian-materi"
+            />
+            Kualitas Penyampaian Materi</label
+          >
+          <label class="lainnya" for="lainnya"
+            ><span
+              ><input id="lainnya" type="checkbox" value="lainnya" /> Lainnya
+              :</span
+            >
+            <input
+              id="lainnya"
+              type="text"
+              placeholder="Tuliskan lainnya disini"
+          /></label>
+        </div>
+
+        <div class="form-group radio">
+          <p>
+            Apakah anda merasa cukup didukung oleh dosen atau instruktur selama
+            pembelajaran daring?
+          </p>
+          <label for="radio1"
+            ><input
+              id="radio1"
+              type="radio"
+              value="Sangat Didukung"
+              name="ejun-radio"
+            />
+            Sangat didukung</label
+          >
+          <label for="radio2"
+            ><input
+              id="radio2"
+              type="radio"
+              value="Cukup Didukung"
+              name="ejun-radio"
+            />
+            Cukup Didukung</label
+          >
+          <label for="radio3"
+            ><input
+              id="radio3"
+              type="radio"
+              value="Kurang Didukung"
+              name="ejun-radio"
+            />
+            Kurang Didukung</label
+          >
+          <label for="radio4"
+            ><input
+              id="radio4"
+              type="radio"
+              value="Tidak merasa didukung"
+              name="ejun-radio"
+            />
+            Tidak merasa didukung</label
+          >
+        </div>
+
+
+          <div id="pindah-page">
+            <a href="#" class="pindah-anchor" style="opacity: 0; pointer-events: none;" >&laquo; Prev</a>
+            <span>
+              <a href="surveyweb2.html" >2</a>
+            </span>
+            <a href="surveyweb2.html" class="pindah-anchor">Next &raquo;</a>
+          </div>
+
+      </form>
+    </div>
+
+  </body>
+</html>

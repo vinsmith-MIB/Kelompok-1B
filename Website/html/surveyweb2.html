@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <title>Survey Pembelajaran Via Daring</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/css/surveyweb.css"/>
+  
+</head>
+
+<body>
+    <div class="container">
+      <header>
+        <h1 id="title">SURVEY PEMBELAJARAN VIA DARING</h1>
+        <p id="description">Terimakasih telah meluangkan waktu untuk mengisi survey yang kami berikan</p>
+      </header>
+  
+      <form id="survey-form" action="after-submit.html">
+       
+        <div class="form-group radio">
+          <p>Apakah anda mengalami kesulitan teknis selama pembelajaran daring? Jika ya, jelaskan!</p>
+          <label for="radio1"><input id="radio1" type="radio" value="Ya" name="opinion-radio"/> Ya</label>
+          <textarea id="Penjelasan" rows="3"></textarea>
+          <label for="radio2"><input id="radio2" type="radio"  value="Kadang-kadang" name="opinion-radio"/> Kadang-kadang</label>
+          <label for="radio3"><input id="radio3" type="radio"   value="Jarang" name="opinion-radio"/> Jarang</label>
+          <label for="radio4"><input id="radio4" type="radio"  value="Tidak pernah" name="opinion-radio"/> Tidak pernah</label>
+        </div>
+  
+        <div class="form-group radio">
+          <p> Menurut anda, apa yang dapat ditingkatkan dalam pembelajaran daring untuk membuatnya lebih efektif? jelaskan!</p>
+          <textarea id="Penjelasan" rows="5"></textarea>
+        </div>
+        <div class="form-group radio">
+          <p>Apakah anda lebih suka pembelajaran daring atau tatap muka? jelaskan!</p>
+          <label for="daring"><input id="daring" type="radio" value="daring" name="text-radio"/> Daring</label>
+          <label for="tatap muka"><input id="tatap muka" type="radio"  value="tatap" name="text"/> Tatap muka</label>
+          <label for="textarea"></label>
+          <textarea id="alasan"  rows="5" placeholder="masukkan alasan kenapa anda memilih jawaaban tersebut ..."></textarea>
+        </div>
+        
+        
+        <div id="pindah-page">
+          <a href="index.html" class="pindah-anchor">&laquo; Prev</a>
+          <span>
+            <a href="index.html" >1</a>
+          </span>
+          <button id="kirim" type="submit">Kirim</button>
+        </div>
+        
+      </form>
+    </div>
+
+  </body>
