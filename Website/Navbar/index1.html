@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Survey Pembelajaran Via Daring</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+        <div class="navbar">
+            <div class="logo"><a href="#"> Survey Pembelajaran Via Daring</a></div>
+            <ul class="links">
+                <li><a href="hero">Home</a></li>
+                <li><a href="about">About</a></li>
+                <li><a href="services">Service</a></li>
+                <li><a href="https://wa.me/6281230928021?">Contact</a></li>
+            </ul>
+            <a href="index.html" class="action_btn">Get Started</a>
+            <div class="toggle_btn">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </div>
+
+        <div class="dropdown_menu">
+            <li><a href="hero">Home</a></li>
+            <li><a href="about">About</a></li>
+            <li><a href="services">Service</a></li>
+            <li><a href="https://wa.me/6281230928021?">Contact</a></li>
+            <li> <a href="index.html" class="action_btn">Get Started</a></li>
+        </div>
+    </header>
+
+    <main>
+        <section id="hero">
+            <h1>Welcome</h1>
+            <p>Web survey pembelajaran via daring ini dirancang untuk mengumpulkan pandangan dan pengalaman anda terkait penggunaan platform pembelajaran daring.<br /> Dengan menjawab pertanyaan-pertanyaan yang telah disediakan, anda dapat memberikan wawasan tentang seberapa sering anda menggunakan platform daring,<br /> kualitas materi pembelajaran, tingkat keterlibatan dalam diskusi, dan seberapa efektif metode penilaian yang digunakan.<br />
+
+                Survey ini juga bertujuan untuk mengetahui preferensi anda antara pembelajaran daring dan tatap muka,<br /> serta sejauh mana anda merasa didukung oleh dosen atau instruktur selama pembelajaran daring.<br /> Kesulitan teknis yang mungkin anda alami juga menjadi fokus, bersama dengan pertanyaan tentang fleksibilitas waktu dalam pembelajaran daring.
+            </p>
+        </section>
+    </main>
+
+    <script>
+        const toggleBtn = document.querySelector('.toggle_btn')
+        const toggleBtnIcon = document.querySelector('.toggle_btn i')
+        const dropDownMenu = document.querySelector('.dropdown_menu')
+
+        toggleBtn.onclick = function () {
+            dropDownMenu.classList.toggle('open')
+            const isOpen = dropDownMenu.classList.contains('open')
+
+            toggleBtnIcon.classList = isOpen
+            ? 'fa-solid fa-xmark'
+            : 'fa-solid fa-bars'
+        }
+    </script>
+  </body>
+  </html>
