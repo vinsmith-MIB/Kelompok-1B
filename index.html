@@ -5,7 +5,7 @@
     <title>Survey Pembelajaran Via Daring</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="Website/css/surveyweb.css" />
-    
+    <script src="index.js"></script>
   </head>
 
   <body>
@@ -23,6 +23,7 @@
           <label id="name-label" for="name">Nama</label>
           <input
             id="name"
+            name="nama"
             type="text"
             placeholder="Masukkan nama anda"
             required
@@ -32,6 +33,7 @@
           <label id="email-label" for="email">Email</label>
           <input
             id="email"
+            name="email"
             type="email"
             placeholder="Masukkan email anda"
             required
@@ -41,6 +43,7 @@
           <label id="number-label" for="number">Umur</label>
           <input
             id="number"
+            name="umur"
             type="number"
             min="13"
             max="99"
@@ -52,7 +55,7 @@
           <label id="select-label"
             >Jenis Kelamin<span class="clue">(opsional)</span></label
           >
-          <select id="dropdown">
+          <select id="dropdown" name="jenis_kelamin">
             <option value="">Pilih Jenis Kelamin</option>
             <option value="1">Laki-laki</option>
             <option value="2">Perempuan</option>
@@ -61,24 +64,19 @@
         <div class="form-group radio">
           <p>Menurut Anda, seberapa efektif pembelajaran via online ?</p>
           <label for="radio1"
-            ><input id="radio1" type="radio" value="1" name="value-radio" /> 1
-            (Sangat Kurang)</label
+            ><input id="radio1" type="radio" value="1" name="efektivitas"> 1 (Sangat Kurang)</label
           >
           <label for="radio2"
-            ><input id="radio2" type="radio" value="2" name="value-radio" /> 2
-            (Kurang)</label
+            ><input id="radio2" type="radio" value="2" name="efektivitas"> 2 (Kurang)</label
           >
           <label for="radio3"
-            ><input id="radio3" type="radio" value="3" name="value-radio" /> 3
-            (Cukup)</label
+            ><input id="radio3" type="radio" value="3" name="efektivitas"> 3 (Cukup)</label
           >
           <label for="radio4"
-            ><input id="radio4" type="radio" value="4" name="value-radio" /> 4
-            (Baik)</label
+            ><input id="radio4" type="radio" value="4" name="efektivitas"> 4 (Baik)</label
           >
           <label for="radio5"
-            ><input id="radio5" type="radio" value="5" name="value-radio" /> 5
-            (Sangat Baik)</label
+            ><input id="radio5" type="radio" value="5" name="efektivitas"> 5 (Sangat Baik)</label
           >
         </div>
         <div class="form-group radio">
@@ -87,25 +85,18 @@
             mengapa anda memilih jawaban tersebut!
           </p>
           <label for="pro"
-            ><input id="pro" type="radio" value="pro" name="opinion-radio" />
-            Pro</label
+            ><input id="pro" type="radio" value="pro" name="opini"> Pro</label
           >
           <label for="kontra"
-            ><input id="kontra" type="radio" value="kon" name="opinion-radio" />
-            Kontra</label
+            ><input id="kontra" type="radio" value="kon" name="opini"> Kontra</label
           >
           <label for="netral"
-            ><input
-              id="netral"
-              type="radio"
-              value="netral"
-              name="opinion-radio"
-            />
-            Netral</label
+            ><input id="netral" type="radio" value="netral" name="opini"> Netral</label
           >
           <label for="textarea"></label>
           <textarea
             id="alasan"
+            name="alasan_opini"
             rows="5"
             placeholder="masukkan alasan kenapa anda memilih (pro/kontra/netral) ..."
           ></textarea>
@@ -116,96 +107,72 @@
             dari segi kenyamanannya ?
           </p>
           <label for="kualitas"
-            ><input
-              id="kualitas"
-              type="checkbox"
-              value="kualitas-relevansi-sistem"
-            />
-            Kualitas dan Relavansi Sistem Pembelajaran</label
+            ><input id="kualitas" type="checkbox" value="kualitas-relevansi-sistem" name="kenyamanan"> Kualitas dan Relavansi Sistem Pembelajaran</label
           >
           <label for="keaktifan"
-            ><input
-              id="keaktifan"
-              type="checkbox"
-              value="keaktifan-peserta-pembelajaran"
-            />
-            Keaktifan Peserta Pembelajaran Via Online</label
+            ><input id="keaktifan" type="checkbox" value="keaktifan-peserta-pembelajaran" name="kenyamanan"> Keaktifan Peserta Pembelajaran Via Online</label
           >
           <label for="keaktifan"
-            ><input
-              id="keaktifan"
-              type="checkbox"
-              value="kualitas-penyampaian-materi"
-            />
-            Kualitas Penyampaian Materi</label
+            ><input id="keaktifan" type="checkbox" value="kualitas-penyampaian-materi" name="kenyamanan"> Kualitas Penyampaian Materi</label
           >
-          <label class="lainnya" for="lainnya"
-            ><span
-              ><input id="lainnya" type="checkbox" value="lainnya" /> Lainnya
-              :</span
-            >
+          <label class="lainnya" for="lainnya" onclick="disabledlainnya()">
+            <span>
+              <input id="lainnya" type="checkbox" value="lainnya" name="kenyamanan"> Lainnya :
+            </span>
             <input
               id="lainnya"
+              name="lainnya_kenyamanan"
               type="text"
               placeholder="Tuliskan lainnya disini"
-          /></label>
+              disabled
+            />
+          
+          </label>
+          
         </div>
-
         <div class="form-group radio">
           <p>
             Apakah anda merasa cukup didukung oleh dosen atau instruktur selama
             pembelajaran daring?
           </p>
           <label for="radio1"
-            ><input
-              id="radio1"
-              type="radio"
-              value="Sangat Didukung"
-              name="ejun-radio"
-            />
-            Sangat didukung</label
+            ><input id="radio1" type="radio" value="Sangat Didukung" name="dukungan_dosen"> Sangat didukung</label
           >
           <label for="radio2"
-            ><input
-              id="radio2"
-              type="radio"
-              value="Cukup Didukung"
-              name="ejun-radio"
-            />
-            Cukup Didukung</label
+            ><input id="radio2" type="radio" value="Cukup Didukung" name="dukungan_dosen"> Cukup Didukung</label
           >
           <label for="radio3"
-            ><input
-              id="radio3"
-              type="radio"
-              value="Kurang Didukung"
-              name="ejun-radio"
-            />
-            Kurang Didukung</label
+            ><input id="radio3" type="radio" value="Kurang Didukung" name="dukungan_dosen"> Kurang Didukung</label
           >
           <label for="radio4"
-            ><input
-              id="radio4"
-              type="radio"
-              value="Tidak merasa didukung"
-              name="ejun-radio"
-            />
-            Tidak merasa didukung</label
+            ><input id="radio4" type="radio" value="Tidak merasa didukung" name="dukungan_dosen"> Tidak merasa didukung</label
           >
         </div>
-
-
-          <div id="pindah-page">
-            <a href="#" class="pindah-anchor" style="opacity: 0; pointer-events: none;" >&laquo; Prev</a>
-            <span>
-              <a href="Website/html/surveyweb2.html" >2</a>
-            </span>
-            <a href="Website/html/surveyweb2.html" class="pindah-anchor">Next &raquo;</a>
-          </div>
-
+        <div id="pindah-page">
+          <a
+            href="#"
+            class="pindah-anchor"
+            style="opacity: 0; pointer-events: none"
+            >&laquo; Prev</a
+          >
+          <span>
+            <a href="Website/html/surveyweb2.html">2</a>
+          </span>
+          <a
+            href="Website/html/surveyweb2.html"
+            type="Submit"
+            class="pindah-anchor"
+            >Next &raquo;</a
+          >
+        </div>
+      
+        <script>
+          simpandata1();
+          loadpindah1();
+          valueform1();
+          disabledlainnya();
+        </script>
       </form>
     </div>
-
-    
   </body>
 </html>
