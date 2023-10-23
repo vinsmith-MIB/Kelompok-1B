@@ -6,10 +6,35 @@
   <title>Survey Pembelajaran Via Daring</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="../css/surveyweb.css"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <script src="../../index.js"></script>
   
 </head>
 
 <body>
+  <header>
+    <div class="navbar">
+        <div class="logo"><a href="#"> Survey Pembelajaran Via Daring</a></div>
+        <ul class="links">
+            <li><a href="hero">Home</a></li>
+            <li><a href="about">About</a></li>
+  
+            <li><a href="https://wa.me/6281230928021?">Contact</a></li>
+        </ul>
+        <a href="index.html" class="action_btn">Get Started</a>
+        <div class="toggle_btn">
+            <i class="fa-solid fa-bars"></i>
+        </div>
+    </div>
+
+    <div class="dropdown_menu">
+        <li><a href="hero">Home</a></li>
+        <li><a href="about">About</a></li>
+        <li><a href="https://wa.me/6281230928021?">Contact</a></li>
+        <li> <a href="index.html" class="action_btn">Get Started</a></li>
+    </div>
+</header>
+
     <div class="container">
       <header>
         <h1 id="title">SURVEY PEMBELAJARAN VIA DARING</h1>
@@ -50,5 +75,7 @@
         
       </form>
     </div>
-
+    <script>
+      navbaranimate();
+    </script>
   </body>
