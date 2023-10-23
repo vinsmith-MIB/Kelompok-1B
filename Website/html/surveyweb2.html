@@ -6,6 +6,7 @@
   <title>Survey Pembelajaran Via Daring</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="../css/surveyweb.css"/>
+  <script src="../../index.js"></script>
   
 </head>
 
@@ -34,7 +35,7 @@
         <div class="form-group radio">
           <p>Apakah anda lebih suka pembelajaran daring atau tatap muka? jelaskan!</p>
           <label for="daring"><input id="daring" type="radio" value="daring" name="text-radio"/> Daring</label>
-          <label for="tatap muka"><input id="tatap muka" type="radio"  value="tatap" name="text"/> Tatap muka</label>
+          <label for="tatapmuka"><input id="tatapmuka" type="radio"  value="tatap" name="text-radio"/> Tatap muka</label>
           <label for="textarea"></label>
           <textarea id="alasan"  rows="5" placeholder="masukkan alasan kenapa anda memilih jawaaban tersebut ..."></textarea>
         </div>
@@ -47,6 +48,11 @@
           </span>
           <button id="kirim" type="submit">Kirim</button>
         </div>
+        <script>
+          simpandata1("form2");
+          loadpindah1();
+          valueform1();
+        </script>
         
       </form>
     </div>
