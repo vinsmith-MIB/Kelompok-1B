@@ -11,7 +11,7 @@ title: |
 
 **Prepared by**
 
-> **\<22091397040 -- Ahmad Zea C.S.D\>**
+> **\<22091397040 -- Ahmad Zea C Shiraath Dajullabib\>**
 >
 > **\<22091397051 -- Kevin Cahyo Pratama\>**
 >
