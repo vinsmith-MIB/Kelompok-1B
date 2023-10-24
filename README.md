@@ -4,20 +4,20 @@ title: |
 
   for
 
-  \<Web survey pembelajaran daring\>
+  \<Web Survei Pembelajaran Daring\>
 ---
 
 **Version 1.0 approved**
 
 **Prepared by**
 
-> **\<22091397040 -- Ahmad Zea C Shiraath Dajullabib\>**
+> **\<22091397040 -- Ahmad Zea C Shiraath D\>**
 >
 > **\<22091397051 -- Kevin Cahyo Pratama\>**
 >
 > **\<22091397069 -- M.Ilham Al Faridsi\>**
 
-**\<11 September 2023\>**
+**\<24 September 2023\>**
 
 **Table of Contents**
 
@@ -150,141 +150,92 @@ ini.\>*
 
     1.  ## Deskripsi Produk 
 
-Web survey pembelajaran daring ini merupakan web yang berisikan survey
-terhadap pembelajaran daring yang mana ditujukan kepada para peserta
-didik untuk menguji seberapa efektif pembelajaran daring terhadap
-kurikulum pembalajaran.
+Website Survei Pembelajaran Daring adalah sebuah perangkat lunak yang
+digunakan untuk mengumpulkan umpan balik dari responden terkait dengan
+pengalaman pembelajaran daring. Produk ini cukup efisien terhadap
+responden karena hanya membutuhkan browser dan internet yang stabil
+untuk mengakses produk ini. Tujuan utama produk ini adalah untuk
+meningkatkan kualitas pembelajaran daring dengan mengumpulkan beberapa
+masukan yang diberikan oleh responden.
 
 ## Fungsi Produk 
 
-Web survey ini memiliki beberapa fungsi diantaranya :
+Berikut adalah fungsi dari produk ini, antara lain:
 
-1.  Mengukur kepuasan peserta didik
+1.  Mengumpulkan data umpan balik.
 
-2.  Mengevaluasi pengalaman belajar
+2.  Mengidentifikasi masalah dalam pembelajaran daring.
 
-3.  Menilai teknologi dan aksesibilitas seperti masalah teknis yang
-    > mereka hadapi selama pembelajaran.
+3.  Evaluasi efektivitas pembelajaran.
 
-4.  Mengumpulkan masukan dan saran untuk meningkatkan metode
-    > pembelajaran
-
-5.  Data survey juga dapat digunakan untuk perencanaan jangka panjang
-    > dan pengambilan keputusan
+4.  Mengukur perkembangan dan perbaikan.
 
     1.  ## Penggolongan Karakterik Pengguna
 
-*\<Identifikasi berbagai golongan pengguna yang terkait dengan produk
-yang dikembangkan\>*
-
 **Tabel 1 Karakteristik Pengguna**
 
-  ---------------------------------------------------------------------------
-  **Kategori    **Tugas**          **Hak Akses ke         **Kemampuan yang
-  Pengguna**                       aplikasi**             harus dimiliki**
-  ------------- ------------------ ---------------------- -------------------
-  Participant   Mengisi form       Insert Data            Entry Data Survey
-                survey                                    
+  -----------------------------------------------------------------------------
+  **Kategori      **Tugas**          **Hak Akses ke         **Kemampuan yang
+  Pengguna**                         aplikasi**             harus dimiliki**
+  --------------- ------------------ ---------------------- -------------------
+  Administrator   Mengelola dan      Insert, Delete, Update Coding website dan
+                  mengkonfigurasi    Data                   mengelola data
+                  website                                   
 
-  Admin         Mengumpulkan Data  Insert, Update, Delete Manupulasi Data
-                Survey             Data                   Survey
+  Responden       Mengisi survei     Insert Data            Membaca dan menulis
 
-                                                          
+                                                            
 
-                                                          
-  ---------------------------------------------------------------------------
+                                                            
+  -----------------------------------------------------------------------------
 
 ## Lingkungan Operasi 
 
-Server web dapat dijalankan menggunakan sistem operasi dan search
-engine:
+Berikut rincian dari lingkungan operasi, antara lain:
 
-1.  Windows
+1.  Sistem operasi: Dapat digunakan diberbagai sistem operasi seperti
+    > windows, IOS, android, dan lain-lain.
 
-2.  Android 4.4 dan diatasnya
+2.  Browser web: Dapat digunakan diberbagai browser seperti chrome,
+    > microsoft edge, mozilla firefox, dan lain-lain
 
-3.  Google Chrome
+3.  Koneksi internet: Dapat diakses dengan kecepatan minimum 512Kbps.
 
-4.  Mozilla Firefox
+4.  Bahasa yang didukung adalah bahasa Indonesia
 
-5.  Yahoo, dsb
+    1.  ## Batasan Desain dan Implementasi 
 
-6.  Terdapat koneksi internet.
+Berikut beberapa batasan di website survei pembelajaran daring:
 
-*\<Jelaskan lingkungan di mana perangkat lunak akan beroperasi, termasuk
-platform, perangkat keras, sistem operasi dan versi, dan komponen
-perangkat lunak lain atau aplikasi yang berdampingan\>*
+1.  Desain Antarmuka: Antarmuka pengguna diusahakan untuk lebih
+    > sederhana dan mudah dipahami.
 
-## Batasan Desain dan Implementasi 
-
-1.  Server web tidak dapat diakses selama device tidak terkoneksi dengan
-    > internet.
-
-2.  
-
-*\<Jelaskan setiap item atau masalah yang akan membatasi pilihan yang
-tersedia untuk para pengembang / developer. Ini mungkin termasuk:
-kebijakan perusahaan atau peraturan; keterbatasan hardware (persyaratan
-memori); teknologi tertentu, alat, dan database yang akan digunakan;
-persyaratan bahasa; protokol komunikasi; pertimbangan keamanan; atau
-standar pemrograman\>*
-
-## Dokumentasi Pengguna
+    1.  ## Dokumentasi Pengguna
 
 *\<Daftar komponen dokumentasi pengguna (seperti user manual, on-line
 help, dan tutorial) yang akan disampaikan bersama dengan perangkat lunak
 yang akan dikirim\>*
 
-## Asumsi dan Ketergantungan
-
-1.  Web ini harus tersambung oleh koneksi internet untuk mengaksesnya
-
-2.  Web dapat diakses dimanapun dan kapanpun selama terdapat koneksi
-    > internet
-
-*\<Cantumkan asumsi faktor apa pun (berlawanan dengan fakta yang
-diketahui) yang dapat memengaruhi persyaratan yang dinyatakan dalam SRS.
-Ini dapat mencakup komponen pihak ketiga atau komersial yang Anda
-rencanakan untuk digunakan, masalah seputar pengembangan atau lingkungan
-pengoperasian, atau kendala. Proyek dapat terpengaruh jika asumsi ini
-tidak benar, tidak dibagikan, atau diubah. Identifikasi juga
-ketergantungan apa pun yang dimiliki proyek pada faktor eksternal,
-seperti komponen perangkat lunak yang ingin Anda gunakan kembali dari
-proyek lain, kecuali jika sudah didokumentasikan di tempat lain
-(misalnya, dalam dokumen visi dan ruang lingkup atau rencana proyek).\>*
-
 3.  # Kebutuhan Antarmuka Eksternal
 
     1.  ## User Interfaces 
 
-*Antarmuka pengguna yang digunakan pada perangkat lunak Survey
+Antarmuka pengguna yang digunakan pada perangkat lunak Survey
 Pembelajaran Via Daring ini berbasis teks dan web yang diinputkan
 melalui keyboard dan mouse. Antarmuka antar pengguna terdiri dari
 beberapa bagian berikut yang semuanya ditampilkan dalam bahasa
-Indonesia.*
+Indonesia.
 
-a.  Tampilan dari Page Pertama (index.html)
+a.  halaman survey pembelajaran via daring\
+    > ![](vertopal_cfd6ecd5ee5a4ffa8595d8b89e9f3dbe/media/image4.png){width="6.697916666666667in"
+    > height="4.040262467191601in"}*\
+    > *![](vertopal_cfd6ecd5ee5a4ffa8595d8b89e9f3dbe/media/image5.png){width="6.697916666666667in"
+    > height="3.874722222222222in"}
 
-> ![](README/media/image2.png){width="6.7in"
-> height="4.194444444444445in"}
->
-> ![](README/media/image8.png){width="6.697916666666667in"
-> height="3.8958333333333335in"}
->
-> ![](README/media/image4.png){width="6.697916666666667in"
-> height="1.9282086614173228in"}
+![](vertopal_cfd6ecd5ee5a4ffa8595d8b89e9f3dbe/media/image3.png){width="6.697916666666667in"
+height="3.8645833333333335in"}
 
-b.  Tampilan dari Page Kedua (surveyweb2.html)
-
-> ![](README/media/image5.png){width="6.7in"
-> height="4.194444444444445in"}![](README/media/image6.png){width="6.697916666666667in"
-> height="4.197916666666667in"}
-
-c.  Tampilan dari Page Ketiga
-    > (after-submit.html)![](README/media/image7.png){width="6.7in"
-    > height="4.194444444444445in"}
-
-    1.  ## Hardware Interface
+## Hardware Interface
 
 *\<Describe the logical and physical characteristics of each interface
 between the software product and the hardware components of the system.
@@ -356,10 +307,10 @@ ID dan penjelasan jika perlu. Bisa dibuat dalam bentuk tabel.*
 
 ## Diagram Use Case
 
-![](README/media/image1.jpg){width="6.7in"
+![](vertopal_cfd6ecd5ee5a4ffa8595d8b89e9f3dbe/media/image2.jpg){width="6.7in"
 height="4.819444444444445in"}
 
-## Flowchart ![](README/media/image3.png){width="5.020833333333333in" height="9.0in"}
+## Flowchart ![](vertopal_cfd6ecd5ee5a4ffa8595d8b89e9f3dbe/media/image1.png){width="5.020833333333333in" height="9.0in"}
 
 # Non Functional Requirements
 
