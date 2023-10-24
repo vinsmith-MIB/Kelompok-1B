@@ -1,7 +1,5 @@
 Berikut laporan halaman about me
 
-Berikut ini adalah laporan dari kode HTML yang telah Anda berikan:
-
 1\. Deklarasi Dokumen:
 
 \`\`\`html
