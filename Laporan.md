@@ -6,14 +6,14 @@ Penjelasan tiap code bagian index.html
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="style.css" />
     <script src="../../index.js"></script>
-  ></head
+  </head
 
-<meta charset="UTF-8" />: Mendefinisikan karakter set dokumen HTML sebagai UTF-8, yang umumnya digunakan untuk mendukung karakter internasional.
-<title>Survey Pembelajaran Via Daring</title>: Menetapkan judul dokumen yang akan ditampilkan di bilah judul atau tab peramban.
-<meta name="viewport" content="width=device-width, initial-scale=1.0" />: Menentukan cara peramban menangani tampilan halaman pada perangkat bergerak. Pengaturan ini memberi tahu peramban untuk menggunakan lebar perangkat sebagai lebar pandangan awal dan mengatur tingkat zoom awal ke 1.0.
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-...">: Memasukkan file stylesheet dari Font Awesome, yang memberikan akses ke ikon-ikon yang dapat digunakan dalam desain halaman web. Integrity dan crossorigin digunakan untuk keamanan dan pengelolaan cache.
-<link rel="stylesheet" href="style.css" />: Mengaitkan dokumen dengan file stylesheet lokal bernama "style.css", yang kemungkinan berisi aturan gaya tambahan untuk mempercantik tampilan halaman.
-<script src="../../index.js"></script>: Memasukkan file skrip JavaScript eksternal dari lokasi "index.js". Skrip ini berisi logika atau fungsi-fungsi tambahan untuk memanipulasi dan meningkatkan perilaku halaman.
+Baris pertama mendefinisikan karakter set dokumen HTML sebagai UTF-8, yang umumnya digunakan untuk mendukung karakter internasional.
+Baris kedua Menetapkan judul dokumen yang akan ditampilkan di bilah judul atau tab peramban.
+Baris ketiga Menentukan cara peramban menangani tampilan halaman pada perangkat bergerak. Pengaturan ini memberi tahu peramban untuk menggunakan lebar perangkat sebagai lebar pandangan awal dan mengatur tingkat zoom awal ke 1.0.
+Baris keempat Memasukkan file stylesheet dari Font Awesome, yang memberikan akses ke ikon-ikon yang dapat digunakan dalam desain halaman web. Integrity dan crossorigin digunakan untuk keamanan dan pengelolaan cache.
+Baris keenam Mengaitkan dokumen dengan file stylesheet lokal bernama "style.css", yang kemungkinan berisi aturan gaya tambahan untuk mempercantik tampilan halaman.
+Baris ke tujuh Memasukkan file skrip JavaScript eksternal dari lokasi "index.js". Skrip ini berisi logika atau fungsi-fungsi tambahan untuk memanipulasi dan meningkatkan perilaku halaman.
 Secara keseluruhan, bagian <head> ini digunakan untuk mengonfigurasi dan menyelaraskan berbagai aspek dari halaman web, seperti pengaturan karakter, judul, gaya, dan skrip-skrip yang dibutuhkan.
 
 
