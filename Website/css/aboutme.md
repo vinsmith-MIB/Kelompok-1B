@@ -1,6 +1,6 @@
 Berikut laporan CSS aboutme
 
-1\. \*\*Resetting Margins and Padding:\*\*
+1\. Resetting Margins and Padding:
 
 \`\`\`css
 
@@ -17,7 +17,7 @@ padding: 0;
 Ini adalah reset yang umum digunakan untuk menghapus margin dan padding
 bawaan elemen HTML.
 
-2\. \*\*Background Image:\*\*
+2\. Background Image:
 
 \`\`\`css
 
@@ -52,7 +52,7 @@ Ini mengatur gambar latar belakang halaman dengan gradient linear dan
 gambar latar belakang berdasarkan URL. Gambar ini ditetapkan di lapisan
 bawah dengan z-index -1 dan diberi efek parallax.
 
-3\. \*\*Overflow-X: Hidden:\*\*
+3\. Overflow-X: Hidden:
 
 \`\`\`css
 
@@ -66,12 +66,12 @@ overflow-x: hidden;
 
 Ini menghilangkan scroll horizontal jika halaman melebihi lebar layar.
 
-4\. \*\*Styling Links:\*\*
+4\. Styling Links:
 
 \- Mendefinisikan gaya dasar untuk tautan dan tautan yang sedang
 dihover, termasuk menghapus dekorasi tautan dan mengubah warna teks.
 
-5\. \*\*Navbar Styling:\*\*
+5\. Navbar Styling:
 
 \- Mendefinisikan gaya untuk elemen-elemen dalam navbar seperti logo,
 tautan, dan tombol toggle.
@@ -79,25 +79,25 @@ tautan, dan tombol toggle.
 \- Tombol toggle ini akan muncul pada layar yang lebih kecil (responsif)
 dan digunakan untuk menampilkan menu dropdown.
 
-6\. \*\*Dropdown Menu Styling:\*\*
+6\. Dropdown Menu Styling:
 
 \- Membuat gaya untuk menu dropdown yang awalnya tersembunyi (\`display:
 none\`) dan akan muncul saat tombol toggle diklik.
 
 \- Menu ini memiliki latar belakang transparan dengan efek blur.
 
-7\. \*\*Hero Section:\*\*
+7\. Hero Section:
 
 \- Mendefinisikan tampilan untuk bagian hero (biasanya bagian atas
 halaman web) dengan teks dan gaya tertentu.
 
-8\. \*\*Media Queries:\*\*
+8\. Media Queries:
 
 \- Mendefinisikan aturan CSS yang hanya berlaku pada lebar layar
 tertentu. Misalnya, ketika layar berukuran kurang dari 992px, beberapa
 elemen di navbar dan tombol toggle akan diubah tampilannya.
 
-9\. \*\*Main Content Styling:\*\*
+9\. Main Content Styling:
 
 \- Mengatur tampilan konten utama pada halaman web.
 
@@ -106,7 +106,7 @@ belakang dan warna teks tertentu.
 
 \- Gambar latar belakang untuk \"about\" memiliki efek transparansi.
 
-10\. \*\*Styling for Our Team Section:\*\*
+10\. Styling for Our Team Section:
 
 \- Mengatur tampilan bagian \"our team\" yang mencakup kartu-kartu
 dengan foto dan deskripsi tim.
