@@ -1,6 +1,6 @@
 Berikut laporan CSS after-submit
 
-1\. \*\*Import Font:\*\*
+1\. Import Font:
 
 \`\`\`css
 
@@ -12,7 +12,7 @@ url(\'https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins&display=
 \- Ini mengimpor dua font dari Google Fonts, yaitu \'Open Sans\' dan
 \'Poppins\', untuk digunakan dalam halaman web.
 
-2\. \*\*Background Image:\*\*
+2\. Background Image:
 
 \`\`\`css
 
@@ -50,7 +50,7 @@ belakang dari URL yang diberikan. Latar belakang ini memiliki efek
 parallax karena ditetapkan pada lapisan z-index -1 dan ditempatkan
 secara tetap (fixed) di seluruh halaman.
 
-3\. \*\*Body Styling:\*\*
+3\. Body Styling:
 
 \`\`\`css
 
@@ -73,7 +73,7 @@ font-size: 1rem;
 \- Mengatur margin, padding, font-family, warna teks, dan ukuran font
 pada seluruh halaman web. Margin atas dan bawah adalah 3rem.
 
-4\. \*\*Text Styling:\*\*
+4\. Text Styling:
 
 \`\`\`css
 
@@ -97,7 +97,7 @@ text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4);
 \"description\". Teks di-align ke tengah dan deskripsi memiliki gaya
 miring (italic) serta efek bayangan teks.
 
-5\. \*\*Container Styling:\*\*
+5\. Container Styling:
 
 \`\`\`css
 
@@ -117,7 +117,7 @@ max-width: 720px;
 layar. Membuat konten berada di tengah dengan menggunakan \`margin: 0
 auto\`.
 
-6\. \*\*Wrapper Styling:\*\*
+6\. Wrapper Styling:
 
 \`\`\`css
 
