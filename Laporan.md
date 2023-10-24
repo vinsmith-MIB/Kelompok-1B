@@ -1,12 +1,12 @@
 Penjelasan tiap code bagian index.html
- <head>
+ ><head>
     <meta charset="UTF-8" />
     <title>Survey Pembelajaran Via Daring</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="style.css" />
     <script src="../../index.js"></script>
-  </head
+  ></head
 
 <meta charset="UTF-8" />: Mendefinisikan karakter set dokumen HTML sebagai UTF-8, yang umumnya digunakan untuk mendukung karakter internasional.
 <title>Survey Pembelajaran Via Daring</title>: Menetapkan judul dokumen yang akan ditampilkan di bilah judul atau tab peramban.
@@ -17,7 +17,7 @@ Penjelasan tiap code bagian index.html
 Secara keseluruhan, bagian <head> ini digunakan untuk mengonfigurasi dan menyelaraskan berbagai aspek dari halaman web, seperti pengaturan karakter, judul, gaya, dan skrip-skrip yang dibutuhkan.
 
 
- <div class="navbar">
+> <div class="navbar">
             <div class="logo"><a href="#"> Survey Pembelajaran Via Daring</a></div>
             <ul class="links">
                 <li><a href="index.html">Home</a></li>
@@ -40,7 +40,7 @@ Kode di atas adalah bagian dari elemen <div> yang mewakili bagian navbar (bilah 
 <i class="fa-solid fa-bars"></i>: Ini adalah elemen ikon dengan kelas "fa-solid fa-bars" dari Font Awesome, yang menampilkan ikon tiga garis horizontal yang sering digunakan sebagai ikon menu tersembunyi pada tampilan seluler atau layar kecil.
 Kode ini secara keseluruhan membentuk struktur dasar dari bagian navbar pada halaman web dan memberikan navigasi ke berbagai bagian situs.
 
- <div class="dropdown_menu">
+ ><div class="dropdown_menu">
             <ul>
             <li><a href="index.html">Home</a></li>
             <li><a href="about">About</a></li>
@@ -54,14 +54,14 @@ Kode ini secara keseluruhan membentuk struktur dasar dari bagian navbar pada hal
 <li><a href="about">About</a></li>: Ini adalah elemen daftar kedua dalam daftar. Ini berisi tautan ("About") yang mungkin mengarah ke halaman "about".
 <li><a href="https://wa.me/6281230928021?">Contact</a></li>: Ini adalah elemen daftar ketiga dalam daftar. Ini berisi tautan ("Contact") yang merupakan tautan eksternal ke nomor WhatsApp.
 
-<div class="stars">
+><div class="stars">
             <img src="https://i.pinimg.com/564x/27/1a/74/271a7465c96bd3e9d0753c9c16d2be63.jpg">
         </div>
 
 <div class="stars">: Ini adalah elemen div yang memiliki kelas "stars". Kelas ini mungkin digunakan untuk memberikan gaya khusus melalui CSS atau untuk mengidentifikasi elemen ini melalui skrip JavaScript.
 <img src="https://i.pinimg.com/564x/27/1a/74/271a7465c96bd3e9d0753c9c16d2be63.jpg">: Ini adalah elemen gambar yang menampilkan gambar dengan sumber (src) dari URL yang diberikan. Gambar ini berasal dari URL "https://i.pinimg.com/564x/27/1a/74/271a7465c96bd3e9d0753c9c16d2be63.jpg". Gambar ini digunakan sebagai elemen dekoratif atau latar belakang untuk bagian tertentu dari halaman web.
 
-    <main>
+  >  <main>
         <section id="hero">
             <small> Welcome to our website</small>
             <h1>Online <br />Learning Survey</h1>
@@ -78,7 +78,7 @@ Kode ini secara keseluruhan membentuk struktur dasar dari bagian navbar pada hal
 <p>...</p>: Ini adalah elemen paragraf (<p>) yang berisi teks informatif yang menjelaskan tujuan dari survey online. Teks ini mengajak pengguna untuk memberikan suara mereka dan berpartisipasi dalam pembuatan pengalaman belajar online yang lebih baik.
 <a href="/index1.html" class="action_btn">Isi Survey</a>: Ini adalah tautan (<a>) yang mengarah ke "/index1.html" dan diberi kelas "action_btn". Teks tautan adalah "Isi Survey". Kelas ini  digunakan untuk memberikan gaya khusus pada tautan melalui CSS atau untuk keperluan JavaScript
 
- <script>
+ ><script>
         navbaranimate();
     </script>
 
