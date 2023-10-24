@@ -1,15 +1,15 @@
 
-  function simpandata1() {
+  function simpandata1(formnama) {
     document
       .getElementById("survey-form")
       .addEventListener("click", function () {
-        localStorage.setItem("form1", this.innerHTML);
+        localStorage.setItem(formnama, this.innerHTML);
       });
   }
 
-  function ambildata1() {
+  function ambildata1(formnama) {
     var form1 = document.getElementById("survey-form-hasil");
-    form1.innerHTML = localStorage.getItem("form1");
+    form1.innerHTML = localStorage.getItem(formnama);
   }
 
   function loadpindah1() {
@@ -87,7 +87,6 @@
 
   function disabledlainnya() {
     var checkbox = document.querySelector(".lainnya input[type=checkbox]");
-    console.log(checkbox);
     var text = document.querySelector(".lainnya input[type=text]");
     if (checkbox.checked) {
       text.disabled = false;
