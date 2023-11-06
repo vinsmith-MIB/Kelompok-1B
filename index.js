@@ -111,6 +111,27 @@
   }
 
   
+function lihatHasilButton() {
+  var ahref = document.querySelectorAll("form a");
+  var button = document.querySelector("form #kirim");
+
+  ahref.forEach(function (a) {
+    if(a.href.includes("surveyweb1.html")) {
+      a.href = "lihat-hasil.html";
+      console.log(a.href);
+    }
+    else if(a.href.includes("surveyweb2.html")) {
+      a.href = "lihat-hasil-2.html";
+    }
+  });
   
+  if(button != null) {
+    button.style.opacity = 0;
+    button.disabled = true;
+    button.addEventListener("mouseover", function() {
+      button.style.cursor = "default";
+    });
+  }
+}
 
   
